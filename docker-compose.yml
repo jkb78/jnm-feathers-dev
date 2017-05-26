@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: /bin/sh -c "npm install && npm start"
+  volumes:
+    - ./app:/app
+  ports:
+    - "3030:3030"
